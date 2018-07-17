@@ -1,45 +1,10 @@
 import scope from './lessons/01_scope.js';
-
 scope();
 
-
-// SPREAD OPERATOR for arrays and objects 
-
-{
-  let a = [20, 30, 40];
-  let b = [10, ...a, 50];
-  console.log(b);
-}
-
-{
-  let a = ['Donna', "Eric", "Frank"];
-  let b = ['Alice', 'Bob', 'Carl', ...a];
-  console.log(b);
-}
-
-{
-  function collect(...a) {
-    console.log(a);
-  }
-  
-  collect('a', 'b', 'c');
-  
-  collect(
-    {
-      name: 'susan',
-      gender: 'female'
-    },
-    {
-      name: 'tony',
-      gender: 'male'
-    }
-  )
-}
+import spread from './lessons/02_spread.js';
+spread();
 
 
-// ------ //
-// ------ //
-// ------ //
 
 // DESTRUCTURING 
 
