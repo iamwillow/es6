@@ -1,6 +1,5 @@
-// SPREAD OPERATOR for arrays and objects 
-
 const spread = () => {
+  console.log('>>> SPREAD OPERATOR:');
 
 
 
