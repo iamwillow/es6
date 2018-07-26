@@ -6,3 +6,6 @@ spread();
 
 import destructure from './lessons/03_destructure.js';
 destructure();
+
+import functions from './lessons/04_functions.js';
+functions();
