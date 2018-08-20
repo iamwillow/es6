@@ -21,11 +21,7 @@ let arrowFunction = () => {
 }
 arrowFunction();
 
-
-console.log('>>> HELPER FUNCTIONS:');
-console.log('maps');
-
-
+console.log('Note:: arrow functions are anonymous by default \n as they do not have function names');
 }
 
 
