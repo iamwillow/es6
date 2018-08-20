@@ -10,13 +10,10 @@ Destructure();
 import Functions from './lessons/04_functions';
 Functions();
 
-import HelperMethods from './lessons/05_helper-methods/index';
-HelperMethods();
-
-import { Title, Add, Multiply } from './lessons/06_modules';
+import { Title, add, multiply } from './lessons/06_modules';
 console.log( Title );
-console.log( Add(4,4) );
-console.log( Multiply(4,4) );
+console.log( add(4,4) );
+console.log( multiply(4,4) );
 
-import Classes from './lessons/07_classes/index';
-Classes();
+import Kingdom from './lessons/07_classes/index';
+Kingdom();
