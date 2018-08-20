@@ -1,19 +1,22 @@
-import scope from './lessons/01_scope.js';
-scope();
+import Scope from './lessons/01_scope';
+Scope();
 
-import spread from './lessons/02_spread.js';
-spread();
+import Spread from './lessons/02_spread';
+Spread();
 
-import destructure from './lessons/03_destructure.js';
-destructure();
+import Destructure from './lessons/03_destructure';
+Destructure();
 
-import functions from './lessons/04_functions.js';
-functions();
+import Functions from './lessons/04_functions';
+Functions();
 
-import helperMethods from './lessons/05_helper-methods/index.js';
-helperMethods();
+import HelperMethods from './lessons/05_helper-methods/index';
+HelperMethods();
 
-import { title, add, multiply } from './lessons/06_modules.js';
-console.log(title);
-console.log( add(4,4) );
-console.log( multiply(4,4) );
+import { Title, Add, Multiply } from './lessons/06_modules';
+console.log( Title );
+console.log( Add(4,4) );
+console.log( Multiply(4,4) );
+
+import Classes from './lessons/07_classes/index';
+Classes();
