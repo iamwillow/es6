@@ -1,7 +1,7 @@
-const title = '>>> MODULES:';
+const title6 = '>>> MODULES:';
 
 const add = ( (a,b) => a+b );
 
 const multiply = ( (a, b) => a*b );
 
-export {title, add, multiply};
+export {title6, add, multiply};
